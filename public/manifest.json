@@ -1,0 +1,16 @@
+{
+  "name": "RAJKOSH — Every File. One Royal Court.",
+  "short_name": "RAJKOSH",
+  "description": "Royal-themed, privacy-first file toolkit. Convert, scan, and transform files in your browser.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070B1A",
+  "theme_color": "#070B1A",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
