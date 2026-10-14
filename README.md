@@ -1,6 +1,6 @@
-# RAJKOSH — Every File. One Royal Court.
+# DocNaut — Every File. One Place.
 
-A royal-themed, fully 3D file toolkit website built with Vite + React + TypeScript + Tailwind CSS + Framer Motion + Three.js (@react-three/fiber and @react-three/drei) + GSAP.
+A privacy-first file toolkit built with Vite + React + TypeScript + Tailwind CSS + Framer Motion + Three.js (@react-three/fiber and @react-three/drei).
 
 ## Features
 
@@ -11,7 +11,6 @@ A royal-themed, fully 3D file toolkit website built with Vite + React + TypeScri
 - **Document Tools**: Text to Word, JSON to CSV.
 - **Utility Tools**: ZIP extractor, word counter, case converter, QR scanner.
 - **3D Hero Scene**: Floating golden crown with Three.js, gold particles, and interactive parallax.
-- **Royal Design**: Midnight navy, royal purple, and metallic gold theme with glassmorphism cards.
 - **PWA**: Installable and works offline.
 - **Responsive**: Mobile-first with simplified 3D on low-end devices.
 
@@ -27,17 +26,6 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## Tech Stack
-
-- Vite + React 18 + TypeScript
-- Tailwind CSS 3
-- Framer Motion (animations)
-- Three.js + @react-three/fiber + @react-three/drei (3D)
-- Tesseract.js (OCR)
-- pdf-lib + pdfjs-dist (PDF manipulation)
-- JSZip (ZIP files)
-- jsQR (QR code scanning)
 
 ## Privacy
 

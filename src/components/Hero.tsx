@@ -46,7 +46,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card gold-border mb-6"
         >
           <Crown className="w-4 h-4 text-gold-400" />
-          <span className="text-sm text-ivory/70 font-body">Every File. One Royal Court.</span>
+          <span className="text-sm text-ivory/70 font-body">Every File. One Place.</span>
         </motion.div>
 
         <motion.h1
@@ -55,7 +55,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="font-heading text-5xl md:text-7xl lg:text-8xl mb-4"
         >
-          <span className="gold-text">RAJKOSH</span>
+          <span className="gold-text">DocNaut</span>
         </motion.h1>
 
         <motion.p

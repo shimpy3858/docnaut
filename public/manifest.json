@@ -1,6 +1,6 @@
 {
-  "name": "RAJKOSH — Every File. One Royal Court.",
-  "short_name": "RAJKOSH",
+  "name": "DocNaut — Every File. One Place.",
+  "short_name": "DocNaut",
   "description": "Royal-themed, privacy-first file toolkit. Convert, scan, and transform files in your browser.",
   "start_url": "/",
   "display": "standalone",

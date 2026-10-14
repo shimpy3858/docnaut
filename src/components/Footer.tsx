@@ -17,10 +17,10 @@ export function Footer() {
         <div className="col-span-2 md:col-span-1">
           <div className="flex items-center gap-2 mb-4">
             <Crown className="w-6 h-6 text-gold-400" />
-            <span className="font-heading text-lg gold-text">RAJKOSH</span>
+            <span className="font-heading text-lg gold-text">DocNaut</span>
           </div>
           <p className="text-sm text-ivory/40 leading-relaxed">
-            Every File. One Royal Court. Your private, browser-based file toolkit.
+            Every File. One Place. Your private, browser-based file toolkit.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export function Footer() {
           <h4 className="font-heading text-sm text-gold-400 mb-3">Company</h4>
           <ul className="space-y-2 text-sm text-ivory/40">
             <li><a href="/#how" className="hover:text-gold-400 transition-colors">How it works</a></li>
-            <li><a href="/#why" className="hover:text-gold-400 transition-colors">Why Rajkosh</a></li>
+            <li><a href="/#why" className="hover:text-gold-400 transition-colors">Why DocNaut</a></li>
             <li><a href="/#faq" className="hover:text-gold-400 transition-colors">FAQ</a></li>
             <li><a href="/#pricing" className="hover:text-gold-400 transition-colors">Pricing</a></li>
           </ul>
@@ -63,7 +63,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto text-center">
         <div className="ornament-divider mb-6" />
         <p className="text-xs text-ivory/30">
-          © 2026 Rajkosh. Crafted with royal precision. Your files never leave your device.
+          © 2026 DocNaut. Crafted with precision. Your files never leave your device.
         </p>
       </div>
     </footer>

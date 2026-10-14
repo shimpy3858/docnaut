@@ -14,7 +14,7 @@ export function WhyRajkosh() {
   return (
     <section id="why" className="relative py-20 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="text-center mb-12">
-        <h2 className="font-heading text-3xl md:text-5xl gold-text mb-3">Why Rajkosh</h2>
+        <h2 className="font-heading text-3xl md:text-5xl gold-text mb-3">Why DocNaut</h2>
         <p className="text-ivory/50 max-w-2xl mx-auto">Built for those who demand both power and privacy.</p>
       </div>
 

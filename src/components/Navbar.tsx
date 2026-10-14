@@ -49,7 +49,7 @@ export function Navbar({ theme, toggleTheme }: { theme: 'dark' | 'light'; toggle
               <Crown className="w-7 h-7 text-gold-400 group-hover:rotate-12 transition-transform duration-300" />
               <div className="absolute inset-0 blur-md bg-gold-400/30 group-hover:bg-gold-400/50 transition-all" />
             </div>
-            <span className="font-heading text-xl font-bold gold-text tracking-wider">RAJKOSH</span>
+            <span className="font-heading text-xl font-bold gold-text tracking-wider">DocNaut</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">

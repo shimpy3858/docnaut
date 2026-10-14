@@ -23,7 +23,7 @@ export function LoadingScreen() {
           transition={{ delay: 0.2 }}
           className="font-heading text-3xl gold-text mb-2 tracking-wider"
         >
-          RAJKOSH
+          DocNaut
         </motion.h1>
 
         <motion.p
@@ -32,7 +32,7 @@ export function LoadingScreen() {
           transition={{ delay: 0.4 }}
           className="text-sm text-ivory/40 mb-8"
         >
-          Every File. One Royal Court.
+          Every File. One Place.
         </motion.p>
 
         <div className="relative w-16 h-16 mx-auto">
