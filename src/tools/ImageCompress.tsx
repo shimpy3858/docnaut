@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Compress, Download, Loader2, Sparkles } from 'lucide-react';
+import { Shrink, Download, Loader2, Sparkles } from 'lucide-react';
 import { ToolLayout } from '@/components/ToolLayout';
 import { Dropzone, type FileItem } from '@/components/Dropzone';
 import { useToast } from '@/components/ToastProvider';
@@ -80,7 +80,7 @@ export function ImageCompress() {
 
   return (
     <ToolLayout
-      icon={<Compress className="w-8 h-8 text-gold-400" />}
+      icon={<Shrink className="w-8 h-8 text-gold-400" />}
       title="Compress Image"
       description="Reduce image file size with adjustable quality. See before/after size comparison."
     >

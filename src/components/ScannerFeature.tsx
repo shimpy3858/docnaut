@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Scanner, ShieldCheck, Globe } from 'lucide-react';
+import { ScanLine, ShieldCheck, Globe } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { tools } from '@/config/tools';
 
@@ -16,7 +16,7 @@ export function ScannerFeature() {
         <div className="relative grid md:grid-cols-2 gap-8 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 mb-4">
-              <Scanner className="w-4 h-4 text-gold-400" />
+              <ScanLine className="w-4 h-4 text-gold-400" />
               <span className="text-sm text-ivory/70">Smart Scanner</span>
             </div>
 
@@ -32,7 +32,7 @@ export function ScannerFeature() {
               {[
                 { icon: Globe, text: '14+ languages: English, Hindi, Bengali, Tamil, Arabic, and more' },
                 { icon: ShieldCheck, text: '100% client-side OCR via Tesseract.js — no cloud, no upload' },
-                { icon: Scanner, text: 'Live camera scan with edge detection (Beta)' },
+                { icon: ScanLine, text: 'Live camera scan with edge detection (Beta)' },
               ].map((item, i) => {
                 const Icon = item.icon;
                 return (

@@ -69,7 +69,7 @@ export function ScanPDFToText() {
           const ctx = canvas.getContext('2d'); if (!ctx) continue;
           ctx.fillStyle = '#FFFFFF';
           ctx.fillRect(0, 0, canvas.width, canvas.height);
-          await page.render({ canvasContext: ctx, viewport, background: '#FFFFFF' }).promise;
+          await page.render({ canvasContext: ctx, viewport, background: '#FFFFFF', canvas } as any).promise;
 
           const { data } = await worker.recognize(canvas);
           allText += `\n\n--- Page ${i} ---\n\n` + data.text;

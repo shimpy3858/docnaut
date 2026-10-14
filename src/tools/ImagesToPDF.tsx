@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Compress, Download, Loader2, Sparkles } from 'lucide-react';
+import { Shrink, Download, Loader2, Sparkles } from 'lucide-react';
 import { ToolLayout } from '@/components/ToolLayout';
 import { Dropzone, type FileItem } from '@/components/Dropzone';
 import { useToast } from '@/components/ToastProvider';
@@ -121,7 +121,7 @@ export function ImagesToPDF() {
 
   return (
     <ToolLayout
-      icon={<Compress className="w-8 h-8 text-gold-400" />}
+      icon={<Shrink className="w-8 h-8 text-gold-400" />}
       title="Images to PDF"
       description="Combine JPG, PNG, and WebP images into a PDF. Reorder pages, choose page size and margins."
     >

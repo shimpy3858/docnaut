@@ -74,7 +74,7 @@ export function PDFToJPG() {
           ctx.fillStyle = '#FFFFFF';
           ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-          await page.render({ canvasContext: ctx, viewport, background: '#FFFFFF' }).promise;
+          await page.render({ canvasContext: ctx, viewport, background: '#FFFFFF', canvas } as any).promise;
 
           const blob = await new Promise<Blob>((resolve) => {
             canvas.toBlob((b) => resolve(b!), 'image/jpeg', quality / 100);

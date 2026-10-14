@@ -1,10 +1,10 @@
 import {
   ScanText, FileText, Image, FileImage, FilePlus, FileMinus, Scissors,
-  Copy, Compress, Stamp, Hash, Lock, Unlock, Crop, FileType, FileSearch,
+  Copy, Shrink, Stamp, Hash, Lock, Unlock, Crop, FileType, FileSearch,
   FileCode, FileSpreadsheet, Presentation, FileType2, PenTool, Settings2,
   Repeat, Images, ImagePlus, ImageMinus, Expand, Eraser, Link2, Smile,
   ArrowUpCircle, FileX, Video, Music, FileArchive, Calculator, CaseSensitive,
-  Type, FileJson, FileXml, FileYaml, Hash as HashIcon, BookOpen, ArrowRight,
+  Type, FileJson, BookOpen, ArrowRight,
   QrCode, Wand2, Sparkles,
 } from 'lucide-react';
 
@@ -44,7 +44,7 @@ export const tools: Tool[] = [
   { id: 'images-to-pdf', title: 'Images to PDF', category: 'pdf', icon: FilePlus, description: 'Combine JPG, PNG, WebP into a PDF with page size and margin options.', route: '/tools/images-to-pdf', priority: true },
   { id: 'merge-pdf', title: 'Merge PDF', category: 'pdf', icon: FilePlus, description: 'Combine multiple PDFs into one document.', route: '/tools/merge-pdf', priority: true },
   { id: 'split-pdf', title: 'Split PDF', category: 'pdf', icon: FileMinus, description: 'Split a PDF by page ranges or extract individual pages.', route: '/tools/split-pdf', priority: true },
-  { id: 'compress-pdf', title: 'Compress PDF', category: 'pdf', icon: Compress, description: 'Reduce PDF file size while keeping quality.', route: '/tools/compress-pdf', priority: true },
+  { id: 'compress-pdf', title: 'Compress PDF', category: 'pdf', icon: Shrink, description: 'Reduce PDF file size while keeping quality.', route: '/tools/compress-pdf', priority: true },
   { id: 'rotate-pdf', title: 'Rotate PDF', category: 'pdf', icon: Repeat, description: 'Rotate pages in a PDF to fix orientation.', route: '/tools/rotate-pdf', priority: false },
   { id: 'pdf-to-text', title: 'PDF to Text', category: 'pdf', icon: FileText, description: 'Extract text content from any PDF.', route: '/tools/pdf-to-text', priority: false },
   { id: 'watermark-pdf', title: 'Watermark PDF', category: 'pdf', icon: Stamp, description: 'Add a text or image watermark to your PDF.', route: '/tools/watermark-pdf', badge: 'beta', priority: false },
@@ -54,7 +54,7 @@ export const tools: Tool[] = [
 
   // Image
   { id: 'image-converter', title: 'Image Converter', category: 'image', icon: Images, description: 'Convert between JPG, PNG, WebP, GIF, BMP, and more.', route: '/tools/image-converter', priority: true },
-  { id: 'image-compress', title: 'Compress Image', category: 'image', icon: Compress, description: 'Reduce image file size with quality slider and before/after preview.', route: '/tools/image-compress', priority: true },
+  { id: 'image-compress', title: 'Compress Image', category: 'image', icon: Shrink, description: 'Reduce image file size with quality slider and before/after preview.', route: '/tools/image-compress', priority: true },
   { id: 'image-resize', title: 'Resize Image', category: 'image', icon: Expand, description: 'Resize images to custom dimensions.', route: '/tools/image-resize', priority: false },
   { id: 'image-crop', title: 'Crop Image', category: 'image', icon: Crop, description: 'Crop images to any area.', route: '/tools/image-crop', badge: 'beta', priority: false },
   { id: 'image-rotate', title: 'Rotate / Flip', category: 'image', icon: Repeat, description: 'Rotate or flip images.', route: '/tools/image-rotate', priority: false },

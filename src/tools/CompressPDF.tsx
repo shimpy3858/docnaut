@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Compress, Download, Loader2, Sparkles } from 'lucide-react';
+import { Shrink, Download, Loader2, Sparkles } from 'lucide-react';
 import { ToolLayout } from '@/components/ToolLayout';
 import { Dropzone, type FileItem } from '@/components/Dropzone';
 import { useToast } from '@/components/ToastProvider';
@@ -48,7 +48,7 @@ export function CompressPDF() {
         const ctx = canvas.getContext('2d'); if (!ctx) continue;
         ctx.fillStyle = '#FFFFFF';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        await page.render({ canvasContext: ctx, viewport, background: '#FFFFFF' }).promise;
+        await page.render({ canvasContext: ctx, viewport, background: '#FFFFFF', canvas } as any).promise;
         const jpegBlob = await canvasToBlob(canvas, 'image/jpeg', quality / 100);
         const jpegBytes = new Uint8Array(await jpegBlob.arrayBuffer());
         const img = await newDoc.embedJpg(jpegBytes);
@@ -69,7 +69,7 @@ export function CompressPDF() {
   const savings = resultBlob && originalSize ? Math.round((1 - resultBlob.size / originalSize) * 100) : 0;
 
   return (
-    <ToolLayout icon={<Compress className="w-8 h-8 text-gold-400" />} title="Compress PDF" description="Reduce PDF file size by re-rendering pages as compressed images.">
+    <ToolLayout icon={<Shrink className="w-8 h-8 text-gold-400" />} title="Compress PDF" description="Reduce PDF file size by re-rendering pages as compressed images.">
       <div className="space-y-6">
         <Dropzone accept="application/pdf" onFiles={handleFiles} files={files} onRemove={removeFile} multiple={false} hint="Upload one PDF to compress" />
         <div>
